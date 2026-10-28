@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="ro">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#030719">
+  <meta name="description" content="NEXUS Launcher pentru Linux. Descarcă launcherul și alege versiunea NEXUS din aplicație.">
+  <title>NEXUS Launcher</title>
+  <link rel="icon" href="assets/nexus-launcher.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="site.css">
+  <script src="site.js" defer></script>
+</head>
+<body>
+  <div class="space-glow glow-blue" aria-hidden="true"></div>
+  <div class="space-glow glow-violet" aria-hidden="true"></div>
+  <div class="star-grid" aria-hidden="true"></div>
+  <header class="topbar">
+    <a class="brand" href="#top" aria-label="NEXUS Launcher">
+      <img src="assets/nexus-launcher.svg" alt="" width="44" height="44">
+      <span><strong>NEXUS</strong><small>LAUNCHER</small></span>
+    </a>
+    <div class="topbar-status"><i></i><span data-ro="CENTRU DE DESCĂRCARE" data-en="DOWNLOAD CENTER">CENTRU DE DESCĂRCARE</span></div>
+    <button class="language-switch" type="button" aria-label="Switch language">EN</button>
+  </header>
+
+  <main id="top" class="main-shell">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <div class="eyebrow"><span>NEXUS</span><i></i><span data-ro="CONTROLUL ÎNCEPE AICI" data-en="CONTROL STARTS HERE">CONTROLUL ÎNCEPE AICI</span></div>
+        <h1 id="hero-title">NEXUS<span>LAUNCHER</span></h1>
+        <p class="hero-lead" data-ro="Alege versiunea NEXUS pe care vrei să o folosești. Launcherul o descarcă și o pornește când decizi tu." data-en="Choose the NEXUS version you want to use. The launcher downloads and starts it when you decide.">Alege versiunea NEXUS pe care vrei să o folosești. Launcherul o descarcă și o pornește când decizi tu.</p>
+        <p class="package-note"><span class="note-icon">◇</span><span data-ro="Descarci launcherul. Clientul NEXUS se alege și se descarcă din aplicație." data-en="Download the launcher. Choose and download the NEXUS client from the app.">Descarci launcherul. Clientul NEXUS se alege și se descarcă din aplicație.</span></p>
+        <a id="download-button" class="download-button disabled" href="#" aria-disabled="true" tabindex="-1">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v11m0 0 4-4m-4 4-4-4M4 17v3h16v-3"/></svg>
+          <span data-ro="Descarcă launcherul pentru Linux" data-en="Download the Linux launcher">Descarcă launcherul pentru Linux</span>
+          <b aria-hidden="true">↗</b>
+        </a>
+        <p id="download-status" class="download-status" aria-live="polite" data-ro="Pachetul va fi disponibil după publicarea site-ului." data-en="The package will be available when the site is published.">Pachetul va fi disponibil după publicarea site-ului.</p>
+        <div class="download-meta">
+          <span id="launcher-version">NEXUS Launcher</span><i></i><span data-ro="Linux desktop" data-en="Linux desktop">Linux desktop</span><i></i><span id="launcher-size" data-ro="Pachet în pregătire" data-en="Package being prepared">Pachet în pregătire</span>
+        </div>
+        <div class="release-line"><span class="release-pulse"></span><span id="client-release" data-ro="Catalogul de versiuni se încarcă…" data-en="Loading release catalog…">Catalogul de versiuni se încarcă…</span></div>
+      </div>
+
+      <div class="hero-visual" aria-hidden="true">
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+        <div class="planet"></div>
+        <svg class="city-art" viewBox="0 0 600 520" preserveAspectRatio="xMidYMid meet">
+          <defs>
+            <linearGradient id="tower" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#3167ff" stop-opacity=".8"/><stop offset="1" stop-color="#5717a4" stop-opacity=".05"/></linearGradient>
+            <linearGradient id="ridge" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#102b71"/><stop offset="1" stop-color="#030719"/></linearGradient>
+          </defs>
+          <path d="M0 395 78 328l56 48 84-118 55 93 83-112 67 95 82-140 95 108v218H0z" fill="#071333"/>
+          <path d="M250 365V195l20-24 20 24v170m43 0V128l17-28 18 28v237m42 0V210l18-22 18 22v155m43 0V157l19-34 19 34v208m-278-137h40m5-50h41m25-48h36m35 72h38m6-47h38m10 63h42" fill="url(#tower)" stroke="#3887ff" stroke-opacity=".65" stroke-width="2"/>
+          <path d="m0 405 92-81 51 37 72-73 63 65 90-96 60 75 76-64 96 79v173H0z" fill="url(#ridge)"/>
+          <path d="m0 405 92-81 51 37 72-73 63 65 90-96 60 75 76-64 96 79" fill="none" stroke="#258dff" stroke-opacity=".65" stroke-width="2"/>
+          <path d="M373 113 350 338m23-225 20 225" stroke="#a85dff" stroke-opacity=".55" stroke-width="2"/>
+          <circle cx="372" cy="112" r="5" fill="#65eaff"/><circle cx="372" cy="112" r="19" fill="#775dff" fill-opacity=".2"/>
+        </svg>
+        <div class="nexus-core"><img src="assets/nexus-launcher.svg" alt=""><span>NEXUS</span><small>YOUR SYSTEM. YOUR CONTROL.</small></div>
+        <div class="visual-label label-left"><i></i> NEXUS / LINUX</div>
+        <div class="visual-label label-right">VERSION CONTROL <i></i></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer"><span>NEXUS <b>·</b> LAUNCHER</span><span id="download-fingerprint">NEXUS LAUNCHER · LINUX</span></footer>
+</body>
+</html>
