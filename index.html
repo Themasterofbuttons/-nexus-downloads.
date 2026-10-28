@@ -40,6 +40,7 @@
           <span id="launcher-version">NEXUS Launcher</span><i></i><span data-ro="Linux desktop" data-en="Linux desktop">Linux desktop</span><i></i><span id="launcher-size" data-ro="Pachet în pregătire" data-en="Package being prepared">Pachet în pregătire</span>
         </div>
         <div class="release-line"><span class="release-pulse"></span><span id="client-release" data-ro="Catalogul de versiuni se încarcă…" data-en="Loading release catalog…">Catalogul de versiuni se încarcă…</span></div>
+        <a class="guide-link" href="#install-guide" data-ro="Vezi pașii de instalare ↓" data-en="See installation steps ↓">Vezi pașii de instalare ↓</a>
       </div>
 
       <div class="hero-visual" aria-hidden="true">
@@ -61,6 +62,52 @@
         <div class="visual-label label-left"><i></i> NEXUS / LINUX</div>
         <div class="visual-label label-right">VERSION CONTROL <i></i></div>
       </div>
+    </section>
+
+    <section id="install-guide" class="install-guide" aria-labelledby="install-title">
+      <div class="guide-heading">
+        <div class="eyebrow"><span>NEXUS</span><i></i><span data-ro="INSTALARE ȘI PORNIRE" data-en="INSTALL AND START">INSTALARE ȘI PORNIRE</span></div>
+        <h2 id="install-title" data-ro="De la descărcare la primul start" data-en="From download to first launch">De la descărcare la primul start</h2>
+        <p data-ro="Pagina descarcă launcherul. Clientul NEXUS se instalează separat, din launcher, după ce alegi versiunea." data-en="This page downloads the launcher. Install the NEXUS client separately from the launcher after choosing a version.">Pagina descarcă launcherul. Clientul NEXUS se instalează separat, din launcher, după ce alegi versiunea.</p>
+      </div>
+
+      <div class="requirements-panel">
+        <div class="requirements-copy">
+          <span class="panel-kicker" data-ro="CERINȚE" data-en="REQUIREMENTS">CERINȚE</span>
+          <p data-ro="Ai nevoie de un desktop Linux, Python 3, GTK 3 și PyGObject. Clientul NEXUS folosește și psutil. Este necesară o conexiune la internet pentru catalog și descărcarea versiunii alese." data-en="You need a Linux desktop, Python 3, GTK 3, and PyGObject. The NEXUS client also uses psutil. An internet connection is required to access the catalog and download the selected version.">Ai nevoie de un desktop Linux, Python 3, GTK 3 și PyGObject. Clientul NEXUS folosește și psutil. Este necesară o conexiune la internet pentru catalog și descărcarea versiunii alese.</p>
+        </div>
+        <div class="dependency-command">
+          <span class="panel-kicker" data-ro="UBUNTU / DEBIAN · DACĂ LIPSESC DEPENDENȚELE" data-en="UBUNTU / DEBIAN · IF DEPENDENCIES ARE MISSING">UBUNTU / DEBIAN · DACĂ LIPSESC DEPENDENȚELE</span>
+          <code>sudo apt install python3 python3-gi gir1.2-gtk-3.0 python3-psutil</code>
+          <small data-ro="Pe alte distribuții Linux, instalează aceleași componente din managerul de pachete al sistemului." data-en="On other Linux distributions, install the same components with the system package manager.">Pe alte distribuții Linux, instalează aceleași componente din managerul de pachete al sistemului.</small>
+        </div>
+      </div>
+
+      <ol class="install-steps">
+        <li class="step-card">
+          <span class="step-number">01</span>
+          <h3 data-ro="Descarcă launcherul" data-en="Download the launcher">Descarcă launcherul</h3>
+          <p data-ro="Apasă butonul de descărcare de mai sus. Vei primi o arhivă .tar.gz pentru Linux." data-en="Click the download button above. You will get a .tar.gz archive for Linux.">Apasă butonul de descărcare de mai sus. Vei primi o arhivă .tar.gz pentru Linux.</p>
+        </li>
+        <li class="step-card">
+          <span class="step-number">02</span>
+          <h3 data-ro="Instalează launcherul" data-en="Install the launcher">Instalează launcherul</h3>
+          <p data-ro="Extrage arhiva, deschide folderul extras într-un terminal și rulează:" data-en="Extract the archive, open the extracted folder in a terminal, and run:">Extrage arhiva, deschide folderul extras într-un terminal și rulează:</p>
+          <code class="step-command">./install-launcher.sh</code>
+          <p data-ro="Se instalează doar pentru utilizatorul curent și apare în meniul de aplicații. Nu cere sudo." data-en="It installs for your current user and appears in the applications menu. It does not require sudo.">Se instalează doar pentru utilizatorul curent și apare în meniul de aplicații. Nu cere sudo.</p>
+        </li>
+        <li class="step-card">
+          <span class="step-number">03</span>
+          <h3 data-ro="Alege și instalează NEXUS" data-en="Choose and install NEXUS">Alege și instalează NEXUS</h3>
+          <p data-ro="Deschide NEXUS Launcher, selectează versiunea dorită și apasă Install. Launcherul descarcă clientul și îi verifică integritatea." data-en="Open NEXUS Launcher, select the version you want, and click Install. The launcher downloads the client and verifies its integrity.">Deschide NEXUS Launcher, selectează versiunea dorită și apasă Install. Launcherul descarcă clientul și îi verifică integritatea.</p>
+        </li>
+        <li class="step-card">
+          <span class="step-number">04</span>
+          <h3 data-ro="Pornește aplicația" data-en="Start the application">Pornește aplicația</h3>
+          <p data-ro="După ce versiunea apare ca instalată, apasă Launch NEXUS. La pornirile următoare o poți deschide din launcher." data-en="When the version is marked as installed, click Launch NEXUS. You can start it from the launcher next time too.">După ce versiunea apare ca instalată, apasă Launch NEXUS. La pornirile următoare o poți deschide din launcher.</p>
+        </li>
+      </ol>
+      <p class="guide-footnote" data-ro="Launcherul distribuie clientul Linux NEXUS; nu este o versiune pentru Windows, macOS sau telefon. Dependențele sistemului nu sunt instalate automat." data-en="The launcher distributes the Linux NEXUS client; it is not a Windows, macOS, or phone build. System dependencies are not installed automatically.">Launcherul distribuie clientul Linux NEXUS; nu este o versiune pentru Windows, macOS sau telefon. Dependențele sistemului nu sunt instalate automat.</p>
     </section>
   </main>
 
