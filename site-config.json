@@ -1,8 +1,8 @@
 {
   "published": true,
-  "launcherVersion": "1.0.1",
-  "launcherDownloadUrl": "downloads/NEXUS-Launcher-1.0.1.tar.gz",
-  "launcherSize": 16027,
-  "launcherSha256": "1dabc094188f21323e79576d7cf6089cd8cb811e7039d395b50627844656b65a",
+  "launcherVersion": "1.0.2",
+  "launcherDownloadUrl": "downloads/NEXUS-Launcher-1.0.2.tar.gz",
+  "launcherSize": 16029,
+  "launcherSha256": "d1a70eb06abcf9b9db0d7d29fc45407864dcf3504345156b4de9951771efe1b5",
   "releasesUrl": "updates/releases.json"
 }

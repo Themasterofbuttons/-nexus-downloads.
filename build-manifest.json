@@ -1,10 +1,10 @@
 {
-  "built_at": "2026-10-27T23:25:19+00:00",
-  "base_url": "https://themasterofbuttons.github.io/nexus-downloads/",
+  "built_at": "2026-10-28T21:16:43+00:00",
+  "base_url": "https://themasterofbuttons.github.io/-nexus-downloads./",
   "launcher": {
-    "version": "1.0.1",
-    "file": "downloads/NEXUS-Launcher-1.0.1.tar.gz",
-    "sha256": "1dabc094188f21323e79576d7cf6089cd8cb811e7039d395b50627844656b65a"
+    "version": "1.0.2",
+    "file": "downloads/NEXUS-Launcher-1.0.2.tar.gz",
+    "sha256": "d1a70eb06abcf9b9db0d7d29fc45407864dcf3504345156b4de9951771efe1b5"
   },
   "client_catalog": "updates/releases.json"
 }
